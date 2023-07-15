@@ -21,6 +21,7 @@ yarn --version
 ## 2) ติดตั้ง git + สมัคร github
 
 https://git-scm.com/downloads
+
 https://www.github.com
 
 วิธีการตรวจสอบเวอร์ชันผ่าน command  
