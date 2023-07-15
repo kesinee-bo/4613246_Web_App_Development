@@ -161,6 +161,11 @@ or
 yarn dev
 ```
 
+snippet สำหรับสร้าง component vue ใหม่
+```
+vbase-3-setup
+```
+
 # **Command Lines เบื้องต้น**
 ### การเปลี่ยน Drive จาก c เป็น d
 ```
