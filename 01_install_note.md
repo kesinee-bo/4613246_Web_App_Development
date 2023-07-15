@@ -1,7 +1,7 @@
 # **การติดตั้งโปรแกรมและเครื่องมือต่าง ๆ**
 ## 1) ติดตั้ง Node.js
 
-https://pages.github.com/](https://nodejs.org/en/download/
+https://nodejs.org/en/download/
 
 วิธีการตรวจสอบเวอร์ชันผ่าน command  
 
