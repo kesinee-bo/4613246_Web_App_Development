@@ -1,3 +1,5 @@
+From [permentf](https://gist.github.com/parmentf/035de27d6ed1dce0b36a#file-gitcommitemoji-md)
+
 Inspired by [dannyfritz/commit-message-emoji](https://github.com/dannyfritz/commit-message-emoji)
 
 See also [gitmoji](https://gitmoji.carloscuesta.me/).
