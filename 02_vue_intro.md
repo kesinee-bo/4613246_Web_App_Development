@@ -4,7 +4,7 @@
 ```
 npm create vite@latest
 ```
-&nbsp;&nbsp;&nbsp;&nbsp; เลือกโปรเจ็ค vue โดยใช้ JavaScript
+&nbsp;&nbsp;&nbsp; เลือกโปรเจ็ค vue โดยใช้ JavaScript
 
 **2) สร้าง folder ชื่อว่า images ในกล่อง Public**
 
