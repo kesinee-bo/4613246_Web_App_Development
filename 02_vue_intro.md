@@ -1,6 +1,17 @@
-## Vue Intro Project
+## **Vue Intro Project**
 
-ข้อมูลสินค้า
+**1) สร้างโปรเจ็คใหม่โดยใช้คำสั่ง**
+```
+npm create vite@latest
+```
+&nbsp;&nbsp;&nbsp;&nbsp; เลือกโปรเจ็ค vue โดยใช้ JavaScript
+
+**2) สร้าง folder ชื่อว่า images ในกล่อง Public**
+
+**3) โหลดไฟล์ major4.webp และ major4.jpg จาก repository นี้ในกล่อง images ไปไว้ยังกล่อง Public/images ที่สร้างไว้ในข้อ 2**
+
+
+**4) ใช้ข้อมูลสินค้าตามที่ให้มาดังนี้ ( กำหนดในส่งของ data() )**
 ```
 {
     product: 'หูฟังไร้สาย Marshall Major IV',
@@ -15,12 +26,11 @@
         {id: 239, color: 'Black', image: './images/major4.webp'},
         {id: 240, color: 'Brown', image: './images/major4.jpg'},
     ],
-cart: 0
+    cart: 0
 }
 ```
 
-
-style
+**5) กำหนดส่วน style ดังต่อไปนี้**
 ```
 header {
   line-height: 1.5;
