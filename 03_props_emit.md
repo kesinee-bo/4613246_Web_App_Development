@@ -159,3 +159,15 @@ import Books from './components/Books.vue';
 ```
 <Books/>
 ```
+
+เพิ่ม vite.config.js เพื่ออ้างอิงผ่าน @ ได้
+```
+export default defineConfig({
+  plugins: [vue()],
+  resolve: {
+    alias: {
+      '@': fileURLToPath(new URL('./src', import.meta.url))
+    }
+  }
+})
+```
