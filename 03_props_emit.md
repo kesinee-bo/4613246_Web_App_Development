@@ -1,6 +1,7 @@
 # **Props and Emit**
 
-## **สร้างโปรเจ็คใหม่**
+### **สร้างโปรเจ็คใหม่**
+
 สร้างโปรเจ็คใหม่โดยใช้คำสั่งดังนี้
 ```
 npm create vite@latest
@@ -12,7 +13,7 @@ npm create vite@latest
 yarn create vite
 ```
 
-ข้อมูลหนังสือ
+### สร้างตัวแปรสำหรับเก็บข้อมูลหนังสือ
 ```
 {
     "bookid": 0,
@@ -146,4 +147,15 @@ yarn create vite
     "author": "John Resig",
     "category": "Java"
 }
+```
+### สร้างไฟล์ Books.vue ในกล่อง Components
+
+### หน้า App.vue เพิ่ม import book 
+```
+import Books from '@/components/Books.vue';
+```
+
+เพิ่มให้แสดง Bookห ใน template
+```
+<Books/>
 ```
