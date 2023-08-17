@@ -152,7 +152,7 @@ yarn create vite
 
 ### หน้า App.vue เพิ่ม import book 
 ```
-import Books from '@/components/Books.vue';
+import Books from './components/Books.vue';
 ```
 
 เพิ่มให้แสดง Bookห ใน template
