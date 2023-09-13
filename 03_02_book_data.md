@@ -1,19 +1,7 @@
-# **Props and Emit**
+คัดลอกข้อมูลหนังสือได้จากข้างล่างนี้ 
 
-### **สร้างโปรเจ็คใหม่**
+[กลับไปยังหน้าการใช้ Props & Emit](03_01_props_emit.md)
 
-สร้างโปรเจ็คใหม่โดยใช้คำสั่งดังนี้
-```
-npm create vite@latest
-```
-
-หรือ
-
-```
-yarn create vite
-```
-
-### สร้างตัวแปรสำหรับเก็บข้อมูลหนังสือ
 ```
 {
     "bookid": 0,
@@ -147,27 +135,4 @@ yarn create vite
     "author": "John Resig",
     "category": "Java"
 }
-```
-### สร้างไฟล์ Books.vue ในกล่อง Components
-
-### หน้า App.vue เพิ่ม import book 
-```
-import Books from './components/Books.vue';
-```
-
-เพิ่มให้แสดง Bookห ใน template
-```
-<Books/>
-```
-
-เพิ่ม vite.config.js เพื่ออ้างอิงผ่าน @ ได้
-```
-export default defineConfig({
-  plugins: [vue()],
-  resolve: {
-    alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
-    }
-  }
-})
 ```
